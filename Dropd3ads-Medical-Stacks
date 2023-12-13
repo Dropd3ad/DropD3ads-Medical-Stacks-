@@ -1,0 +1,221 @@
+class CfgPatches
+{
+	class Med_S
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"DZ_Data",
+			"DZ_Gear_Medical"
+		};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class Switchable_Base;
+	class Bottle_Base;
+	class CharcoalTablets: Inventory_Base //CAN BE REFILLED VIA STACKING
+	{
+		varQuantityInit=30;//CHANGE THESE VALUES 
+		varQuantityMin=0;
+		varQuantityMax=30;//CHANGE THESE VALUES 
+		varStackMax=30;//CHANGE THESE VALUES 
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class DisinfectantSpray: Inventory_Base //CAN BE REFILLED VIA STACKING
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES 
+		varStackMax=5;//CHANGE THESE VALUES 
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class PainkillerTablets: Inventory_Base //CAN BE REFILLED VIA STACKING
+	{
+		varQuantityInit=30;//CHANGE THESE VALUES 
+		varQuantityMin=0;
+		varQuantityMax=30;//CHANGE THESE VALUES 
+		varStackMax=30;//CHANGE THESE VALUES 
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class PurificationTablets: Inventory_Base //CAN BE REFILLED VIA STACKING
+	{
+		varQuantityInit=30;//CHANGE THESE VALUES 
+		varQuantityMin=0;
+		varQuantityMax=30;//CHANGE THESE VALUES 
+		varStackMax=30;//CHANGE THESE VALUES 
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class TetracyclineAntibiotics: Inventory_Base //CAN BE REFILLED VIA STACKING
+	{
+		varQuantityInit=20;//CHANGE THESE VALUES 
+		varQuantityMin=0;
+		varQuantityMax=20;//CHANGE THESE VALUES 
+		varStackMax=20;//CHANGE THESE VALUES 
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class SalineBag: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;	//CHANGE THESE VALUES 
+		varStackMax=5;	//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class BandageDressing: Inventory_Base //CAN BE REFILLED VIA STACKING
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class StartKitIV: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class SalineBagIV: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+	};
+	class BloodBagIV: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+	};
+	class BloodBagEmpty: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+	};
+	class BloodBagFull: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+	};
+	class Epinephrine: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+	};
+	class Morphine: Inventory_Base //CAN BE STACKED UP TO 5 
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class AntiChemInjector: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class Splint: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+	};
+	class BloodTestKit: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class Heatpack: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class GPB_Stims_HealthRestore: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class GPB_Stims_HealthBoost: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class GPB_Stims_SteadyHands: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class GPB_Stims_HemostaticDrug: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+	class GPB_Stims_JollyBeans: Inventory_Base //CAN BE STACKED UP TO 5
+	{
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=5;//CHANGE THESE VALUES
+		varStackMax=5;//CHANGE THESE VALUES
+		canBeSplit=1;
+		varQuantityDestroyOnMin=1;
+	};
+};
