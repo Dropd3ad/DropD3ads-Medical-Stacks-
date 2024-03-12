@@ -1,5 +1,5 @@
 <tr>
-  <td> <a href="[C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)"></a></td>
+  <td> <a href="(https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)"></a></td>
   <td>C PLUS PLUS</td>
 </tr>
 
