@@ -1,7 +1,4 @@
-<tr>
-  <td> <a href="(https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)"></a></td>
-  <td>C PLUS PLUS</td>
-</tr>
+<img alt="C-Plus-Plus" title="C-Plus-Plus" width="40px" style="margin-right:100px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
 
 #
 
