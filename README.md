@@ -1,4 +1,4 @@
-![GitHub file size in bytes](https://img.shields.io/github/size/:user/Dropd3ads-Medical-Stacks/%40Dropdead)
+![GitHub file size in bytes](https://img.shields.io/github/size/:user/Dropd3ads-Medical-Stacks/Dropdead)
 
 #
 
