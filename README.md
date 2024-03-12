@@ -1,3 +1,7 @@
+![GitHub file size in bytes](https://img.shields.io/github/size/:user/Dropd3ads-Medical-Stacks/%40Dropdead)
+
+#
+
 _**Inludes All Vanilla Dayz Medical Items and GPB Stims Which Is Open Soucrce**_ 
 
 - Any Questions Feel Free To Contact me Anytime.
