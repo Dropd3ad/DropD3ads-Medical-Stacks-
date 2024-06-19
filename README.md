@@ -20,3 +20,12 @@ _**Inludes All Vanilla Dayz Medical Items and GPB Stims Which Is Open Soucrce**_
              | | ||   /| | ||  _/| | | <_ \|   || | | | | ||   |\   / / /  |     || | || | | / / 
              |___/|_\_\`___'|_|  |___/<___/|_|_||___/ |___/|_|_| |_| /___| |_|_|_|`___'|___//___|
                                                                                                       
+##
+
+
+> [!TIP]
+><a href="https://www.gtxgaming.co.uk/clientarea/aff.php?aff=3320">Buy DAYZ Servers From GTXGaming</a>
+
+#
+
+![](https://komarev.com/ghpvc/?username=Dropd3ad&label=PROFILE+STATS)
