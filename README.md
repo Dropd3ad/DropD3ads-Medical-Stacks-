@@ -28,4 +28,3 @@ _**Inludes All Vanilla Dayz Medical Items and GPB Stims Which Is Open Soucrce**_
 
 #
 
-![](https://komarev.com/ghpvc/?username=Dropd3ad&label=PROFILE+STATS)
